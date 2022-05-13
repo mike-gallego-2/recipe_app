@@ -9,6 +9,7 @@ class AppText extends StatelessWidget {
   final Color color;
   final double padding;
   final TextAlign? textAlign;
+  final double? height;
   const AppText({
     Key? key,
     required this.text,
@@ -17,6 +18,7 @@ class AppText extends StatelessWidget {
     this.color = primaryColor,
     this.padding = 0.0,
     this.textAlign,
+    this.height,
   }) : super(key: key);
 
   @override
@@ -30,6 +32,7 @@ class AppText extends StatelessWidget {
           fontSize: fontSize,
           fontWeight: fontWeight,
           letterSpacing: textSpacing,
+          height: height,
         ),
         textAlign: textAlign,
       ),

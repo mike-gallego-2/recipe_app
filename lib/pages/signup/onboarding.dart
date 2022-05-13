@@ -29,6 +29,7 @@ class OnboardingPage extends StatelessWidget {
           text: "Let's join our community\n to cook better food",
           color: accentColor,
           textAlign: TextAlign.center,
+          height: increasedHeight,
         ),
         Expanded(
           child: Container(

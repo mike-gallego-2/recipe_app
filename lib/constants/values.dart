@@ -12,6 +12,9 @@ const regular = FontWeight.w500;
 // letter spacing
 const textSpacing = 0.5;
 
+// height
+const increasedHeight = 1.5;
+
 // colors
 const primaryColor = Color(0xFF2E3E5C);
 const accentColor = Color(0xFF9FA5C0);
