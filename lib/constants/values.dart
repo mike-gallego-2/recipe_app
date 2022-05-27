@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// image scale
+const onboardingImageScale = 0.6;
+
 // font size
 const headerText = 22.0;
 const subheaderText = 17.0;
